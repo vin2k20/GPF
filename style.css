@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #34495e;
+	text-align: center;
+}
+h1 {
+	margin-top: 10%;
+}
+input {
+	border-radius: 24px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+	border: 2px solid #3498db;
+}
+input[type = "text"] {
+	font-size: 18px;
+	width: 200px;
+}
+input[type = "text"]:hover {
+	width: 280px;
+	border-color: #2ecc71;
+}
+input[type = "text"]:focus {
+	width: 280px;
+	border-color: #2ecc71;
+}
+input[type = "button"] {
+	padding: 10px 10px 10px 10px;
+}
+input[type = "button"]:hover {
+	background: #2ecc71;
+	border-color: #2ecc71;
+}
+p {
+	font-size: 18px;
+}
